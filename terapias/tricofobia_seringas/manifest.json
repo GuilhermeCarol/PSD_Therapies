@@ -1,0 +1,24 @@
+{
+  "id": "tricofobia_seringas",
+  "title": "Tricofobia (Seringas)",
+  "version": "0.1.0",
+  "status": "prototype",
+  "description": "Estrutura inicial do pack. Cena 3D, diálogo e exercícios ainda por desenvolver.",
+  "progress_default": 0,
+  "therapy_prompt": "prompts/terapeuta_ptpt.txt",
+  "scene_3d": "assets/3d/consultorio.glb",
+  "steps": [
+    {
+      "title": "Preparação",
+      "description": "Área reservada para a preparação da experiência."
+    },
+    {
+      "title": "Consultório",
+      "description": "Será ligada a uma cena 3D quando o modelo estiver disponível."
+    },
+    {
+      "title": "Fim da sessão",
+      "description": "Conclusão e regresso ao menu."
+    }
+  ]
+}
