@@ -1,0 +1,34 @@
+# PSD — PLANO DE ACOMPANHAMENTO (FORMATO TXT LIDO PELO JOGO)
+# As chaves abaixo são interpretadas pelo Godot. Edita os valores após = e mantém os nomes.
+# Os dias são apenas uma referência para um CHECK-IN CONVERSACIONAL, não indicam prontidão clínica.
+# A IA não pode avançar níveis; só o programa com supervisão profissional poderá fazê-lo.
+
+[etapa_0]
+nome=Conversa e familiarização
+dias_para_checkin=4
+disponivel=sim
+objetivo=Conhecer como a pessoa descreve o medo de agulhas, situações que o provocam e o conforto ao falar sobre o tema, sem mostrar agulhas.
+acoes=Cumprimentar; perguntar como prefere falar sobre o tema; uma pergunta de cada vez; ouvir experiências e sentimentos; perguntar se quer continuar ou fazer pausa.
+verificacoes=Confirmar vontade de continuar; perguntar nível de conforto por palavras ou numa escala opcional; verificar se há desconforto; respeitar pausa.
+ao_rever=Perguntar como se sentiu nos últimos dias e se gostaria de conversar sobre a possibilidade de uma etapa visual futura, sem insistir e sem assumir preparação.
+criterio_avanco=Não existe aprovação automática. Só mediante decisão informada do utilizador e avaliação por profissional habilitado.
+
+[etapa_1]
+nome=Visualização gradual em ambiente virtual
+dias_para_checkin=5
+disponivel=nao
+objetivo=Explorar um consultório 3D e observar progressivamente objetos relacionados com agulhas, com controlo de distância, pausa e saída.
+acoes=Começar pelo espaço neutro; pedir permissão antes de mostrar material; permitir escolher distância e parar; perguntar como se sente.
+verificacoes=Confirmar consentimento; oferecer pausa ou recuo; nunca aumentar intensidade automaticamente.
+ao_rever=Convidar a descrever o conforto com a experiência, sem impor passos seguintes.
+criterio_avanco=Requer conteúdos 3D completos, controlos de segurança e supervisão profissional; indisponível neste protótipo.
+
+[etapa_2]
+nome=Sensação tátil controlada
+dias_para_checkin=7
+disponivel=nao
+objetivo=Futura simulação de sensações não invasivas sincronizadas com VR, apenas com hardware seguro e validado.
+acoes=Não executar nesta versão.
+verificacoes=Requer avaliação de segurança do dispositivo e consentimento informado.
+ao_rever=Não propor ativação tátil nesta versão.
+criterio_avanco=Etapa futura, bloqueada até validação técnica, ética e clínica.
