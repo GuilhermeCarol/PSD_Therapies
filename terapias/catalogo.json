@@ -3,8 +3,8 @@
   "therapies": [
     {
       "id": "tricofobia_seringas",
-      "title": "Tricofobia (Seringas)",
-      "summary": "Pack inicial de demonstração para medo de agulhas.",
+      "title": "Medo de agulhas (tripanofobia)",
+      "summary": "Protótipo de conversa guiada com médico virtual; etapas visual e tátil ainda em preparação.",
       "status": "prototype"
     },
     {
