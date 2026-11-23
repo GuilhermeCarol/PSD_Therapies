@@ -1,24 +1,29 @@
 {
   "id": "tricofobia_seringas",
-  "title": "Tricofobia (Seringas)",
-  "version": "0.1.0",
+  "title": "Medo de agulhas (tripanofobia)",
+  "version": "0.2.0",
   "status": "prototype",
-  "description": "Estrutura inicial do pack. Cena 3D, diálogo e exercícios ainda por desenvolver.",
+  "description": "Protótipo educativo: conversa guiada na etapa 0. Exposição 3D e tato ainda indisponíveis.",
   "progress_default": 0,
-  "therapy_prompt": "prompts/terapeuta_ptpt.txt",
+  "therapy_prompt": "prompts/prompt.txt",
   "scene_3d": "assets/3d/consultorio.glb",
   "steps": [
     {
-      "title": "Preparação",
-      "description": "Área reservada para a preparação da experiência."
+      "id": 0,
+      "title": "Conversa e familiarização",
+      "status": "available"
     },
     {
-      "title": "Consultório",
-      "description": "Será ligada a uma cena 3D quando o modelo estiver disponível."
+      "id": 1,
+      "title": "Visualização gradual",
+      "status": "planned"
     },
     {
-      "title": "Fim da sessão",
-      "description": "Conclusão e regresso ao menu."
+      "id": 2,
+      "title": "Sensação tátil controlada",
+      "status": "future"
     }
-  ]
+  ],
+  "followup_plan": "prompts/acompanhamento.txt",
+  "avatar_3d": "assets/3d/medico.glb"
 }
